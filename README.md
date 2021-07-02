@@ -64,6 +64,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |03|Albert Einstein|114159265|
 |04|Leonhard Euler|1271828182|
 |05|George Washington|1987654321|
+
 <br> <br>
 
 **ClientDetail**
@@ -74,6 +75,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |03|Hestia|46 Hearth Avenue, Greece|03|
 |04|Anubis|1 Feather Lane, Egypt|04|
 |05|Joseph|4 Judea Drive, Rome|05|
+
 <br> <br>
 
 **Supervisor**
@@ -84,6 +86,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |05|02|
 |05|04|
 |05|03|
+
 <br> <br>
 
 **Staff**
@@ -94,6 +97,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |3|Graphic Designer|1111111113|05|03|
 |4|Director|1111111114|4|04|
 |5|Account Manager|1111111115|5|05|
+
 <br> <br>
 
 **Advert**
@@ -104,6 +108,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |03|Magazine|01|
 |02|Newspaper|04|
 |03|Magazine|05|
+
 <br> <br>
 
 **Campaign** 
@@ -116,6 +121,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |01|Halloween|01|2019-10-12|02|04|
 |04|Easter|01|2019-03-14|03|05|
 |05|Christmas|03|2019-12-01|02|04|
+
 <br> <br>
 
 **Studio**
@@ -126,6 +132,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |3|1|
 |4|1|
 |5|1|
+
 <br> <br>
 
 **Invoice**
@@ -136,6 +143,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |03|2019-01-15|3|2019-01-17|Paid|2019-01-24|03|
 |04|2019-03-16|1|2019-03-18|Paid|2019-03-19|04|
 |05|2019-12-03|3|2019-12-04|Paid|2019-12-08|05|
+
 <br> <br>
 
 **Salary**
@@ -146,6 +154,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |03|3|
 |04|4|
 |05|5|
+
 <br> <br>
 
 **holds**
@@ -156,6 +165,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |02|01|
 |03|04|
 |03|05|
+
 <br> <br>
 
 **Bookings**
@@ -166,6 +176,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |03|01|03|2019-09-18|4|
 |02|03|04|2018-12-02|2|
 |02|03|05|2018-12-20|1|
+
 <br> <br>
 
 **empType**
@@ -176,6 +187,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |Graphic Designer|Casual|03|05|
 |Direct|Full-time|04|04|
 |Account Manager|Full-time|05|05|
+
 <br> <br>
 
 **StaffDetail**
@@ -186,6 +198,7 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 |3|Tom|3|05|03|
 |4|Eve|4|04|04|
 |5|Josh|5|05|05|
+
 <br> <br>
 
 ### Queries
