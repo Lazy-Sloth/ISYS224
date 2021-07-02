@@ -205,19 +205,22 @@ Create and run the DML scripts to insert records into each of your tables. <br>
 * List the titles and themes of the Campaigns’ whose actual costs are below the average
 estimated cost of all the campaigns. <br>
 **Result:**
+
 |campaignID|Theme|actualCost|AvgCostEstimate|
 |---|---|---|---|
 
 * List the campaign titles and the number of their advertisements whose completion
 dates were earlier than their target dates. <br>
 **Result:**
-|campaginID||No of Ads|completionDate|finishDate|
+ 
+|campaignID|NoOfAds|completionDate|finishDate|
 |---|---|---|---|
 |01|02|2019-10-09|2019-10-12|
 |03|01|2019-01-15|2019-01-21|
 
-List all the names of full-time staff members whose supervisor(s) were not the managers of the campaigns they worked on. <br>
+* List all the names of full-time staff members whose supervisor(s) were not the managers of the campaigns they worked on. <br>
 **Result:**
+
 |staffName|empType|staffID|campaign manager|Manager|Staff-staffID|
 |---|---|---|---|---|---|
 |Bob|Full-time|01|05|04|01|
@@ -225,11 +228,13 @@ List all the names of full-time staff members whose supervisor(s) were not the m
 * For campaigns with more than two staff members working on them, list the campaign
 title and the number of staff members who had salary grade greater than 2.<br>
 **Result:**
+
 |campaignID|count(campaignID)|Salary_salaryGrade|
 |---|---|---|
 
 * List all the full-time staff members who do not manage any campaigns.<br>
 **Result:**
+
 |staffID|empType|position|SupervisorID|
 |---|---|---|---|
 |01|Full-time|Technical Personnel|04|
