@@ -1,6 +1,6 @@
 # ISYS224 Database Systems
 *Completed for ISYS224 Database Systems at Macquarie University 2019* <br>
-***By Hong Quuan Dang***
+***By Quan Dang***
 
 ## **Problem Domain**
 This question deals with a system used by an advertising agency called Shine to manage
@@ -10,32 +10,30 @@ and also a number of casual staff members (such as actors, models, graphic desig
 can offer specialized skills for each advertising campaign for its clients. Casual staff
 members do not have a permanent office in the agency and are contacted on their mobile
 phone. Shine has a hierarchical management structure where each staff member (except
-for the managing director) reports to a single supervisor within the company.
+for the managing director) reports to a single supervisor within the company.<br>
 Shine deals with other companies as its clients. A record is kept of each client company, and
 each client company has one main contact person with Shine. Similarly, Shine nominates a
 full-time member of its staff – a director, or an account manager to be the contact for each
-client. Casual staff members are not eligible to be contact persons.
+client. Casual staff members are not eligible to be contact persons.<br>
 Shine runs advertising campaigns for its clients, and a record is kept of every campaign.
 Each campaign is based on a unique theme. One full-time member of Shine’s staff, again
 either a director or an account manager, manages each campaign. Shine staff may work on
 zero, or one or more campaigns at a time. For each campaign they work on, they are
-answerable to the manager of that campaign, who may or may not be their own supervisor.
+answerable to the manager of that campaign, who may or may not be their own supervisor.<br>
 When a campaign starts, an estimate of the cost and finish date needs to be set and agreed
 upon. Each campaign includes one or more adverts. Adverts can be one of several types:
 websites, newspapers, magazines, TV, etc. Shine currently operates five studios and each
 advert may require a few bookings of studios for a number of hours on specific times and
 dates. Shine charges an hourly rate for studio bookings. The actual cost of a campaign is
 calculated from a range of information such as: cost of staff time, cost of studio time, cost
-of consumables etc.
+of consumables etc. <br>
 The system also holds a number of fixed salary grades and annual and hourly pay rates of
 each grade, so that the cost of staff time on a campaign can be calculated from the
 timesheets that they fill out. Shine pays annual salaries to full-time staff but it charges
-hourly pay rates to its clients. Casual staff members are also graded and they are paid based 
-ISYS224 2019-Assignment 1
-3
+hourly pay rates to its clients. Casual staff members are also graded and they are paid based
 on an hourly pay rate charged directly to the clients. Please note that (both full-time and
 casual) staff members can have different salary grades during the campaign period (for
-instance, when a staff member is given a pay rise right in the middle of a campaign).
+instance, when a staff member is given a pay rise right in the middle of a campaign). <br>
 When the campaign is completed, an actual completion date and the actual cost are
 recorded and a single invoice for the whole campaign is sent to the client. The issue date
 and payment status of the invoice are also recorded. When the client pays, the date paid is
